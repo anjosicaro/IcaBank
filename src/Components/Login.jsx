@@ -19,9 +19,9 @@ function Login(){
        </Link>
     </form>
 </div>
-<div>
+{/* <div>
     <img src={imagem2} alt="" />
-</div>
+</div> */}
 
         </section>
     )

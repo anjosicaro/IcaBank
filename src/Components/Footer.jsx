@@ -10,9 +10,7 @@ function Footer() {
     <footer>
       <div className={styles.caixa1}>
         <h1>Icabank</h1>
-        <Link to="/">
-          <p>Pagina Inicial</p>
-        </Link>
+       
         <Link to="/SejaCliente">
           <p>
             Seja um dos <br /> nosso cliente
@@ -27,9 +25,7 @@ function Footer() {
       </div>
       <div className={styles.caixa2}>
         <h1>Contatos</h1>
-        <p>
-          Entre em contato <br /> atráves dos canais
-        </p>
+        
 
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
@@ -46,24 +42,24 @@ function Footer() {
       </div>
       <div className={styles.caixa3}>
         <h1>Redes Sociais</h1>
-        <p>Nos siga nas <br /> redes sociais</p>
+        
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
             <img src={github} alt="" />
           </div>
-          <p>(11) 9 8306-7403</p>
+          <p>GitHub</p>
         </div>
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
             <img src={insta} alt="" />
           </div>
-          <p>(11) 9 8306-7403</p>
+          <p>Instagram</p>
         </div>
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
             <img src={figma} alt="" />
           </div>
-          <p>(11) 9 8306-7403</p>
+          <p>Figma</p>
         </div>
       </div>
     </footer>

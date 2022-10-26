@@ -10,13 +10,14 @@ footer{
 }
 
 .caixa1{
-    width: 30%;
+    width: 25%;
     height: 300px;
     /* background-color: #263238; */
     display: flex;
-    align-items:center;
+    /* align-items:center; */
     flex-direction: column;
     justify-content: space-around;
+   
 }
 .caixa1 p{
     display: flex;
@@ -27,11 +28,11 @@ footer{
 
 
 .caixa2{
-    width: 35%;
+    width: 30%;
     height: 300px;
     /* background-color:brown ; */
     display: flex;
-    align-items:center;
+    /* align-items:center; */
     flex-direction: column;
     justify-content: space-around;
 }
@@ -47,7 +48,7 @@ footer{
     height: 300px;
     /* background-color:chocolate; */
     display: flex;
-    align-items:center;
+    /* align-items:center; */
     flex-direction: column;
     justify-content: space-around;
 }

@@ -24,6 +24,7 @@ function App() {
     <Route path='/Icard' element={<Icard />} />
     <Route path='/Login' element={<Login />}/>
     <Route path='/Cadastro' element={<Cadastro />} />
+    
     </Routes>
     <Footer />
   </Router>

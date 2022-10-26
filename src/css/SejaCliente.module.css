@@ -24,7 +24,7 @@
  }
 
 .login{
-    width: 40%;
+    width: 35%;
     height: 350px;
     border-radius: 10px;
     background-color:#FFA800;
@@ -51,14 +51,21 @@
     
  }
  .btn{
-    width: 100%;
-    background-color: #FFC100;
-    box-shadow:5px 10px 12px #1e1e1e8c;
-    border: 1px solid #1E1E1E;
-    border-radius: 10px;
-    height: 40px;
-    padding: 5px;
+   margin-top: 20px;
+   width: 200px;
+   color: #1E1E1E;
+   font-weight: bold;
+   font-size: 20px;
+   background-color: #FFC100;
+   box-shadow:5px 10px 12px #1e1e1e8c;
+   /* border: 1px solid #1E1E1E; */
+   border-radius: 10px;
+   height: 40px;
+   padding: 5px;
+   cursor: pointer;
+   
  }
+
  .titulo{
     color: #1E1E1E;
     font-size: 40px;

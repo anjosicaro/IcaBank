@@ -4,6 +4,7 @@ import logo from "../images/logo (1).png";
 
 function Header() {
   return (
+    <>
     <header>
     
     <img src={logo} alt="logoIca" className={styles.logo} />
@@ -32,6 +33,9 @@ function Header() {
         </ul>
       </nav>
     </header>
+   
+
+    </>
   );
 }
 export default Header;
