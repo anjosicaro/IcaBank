@@ -65,7 +65,12 @@
    cursor: pointer;
    
  }
-
+.btn:hover{
+    transition: all .3s ease-in-out;
+    background-color: #312e2efa;
+    /* border: #FFA800 2px solid ; */
+    color: #FFA800;
+}
  .titulo{
     color: #1E1E1E;
     font-size: 40px;
