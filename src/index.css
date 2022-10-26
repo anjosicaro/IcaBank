@@ -3,6 +3,8 @@
 padding: 0;
 border: 0;
 margin: 0;
+outline: none;
+
 }
 
 body{
@@ -19,4 +21,10 @@ h1{
 
 h3{
   color: #1E1E1E;
+}
+
+a{
+  text-decoration: none;
+  color: #FFA800;
+  font-weight: bold;
 }

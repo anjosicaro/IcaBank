@@ -1,5 +1,6 @@
 .Vantagens{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 700px;
     /* background-color: red; */
     display: flex;
@@ -12,16 +13,32 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
 }
+.esquerda p{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    width: 70%;
+    margin: auto;
+    /* background-color: red; */
+}
+
 
 .circulo{
     width: 230px;
     height: 230px;
     border-radius: 50%;
     background-color: #FFA800;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
+.circulo img{
+    width: 70%;
+}
+
 .circuloCima{
     height: 50%;
     display: flex;
@@ -43,9 +60,7 @@
 }
 
 
-img{
-    width: 70%;
-}
+
 
 .direita{
     width: 50%;
@@ -60,8 +75,4 @@ img{
 .texto{
     width:70%;
     margin: auto;
-}
-p{
-    /* background-color: red; */
-    width: 70%;
 }

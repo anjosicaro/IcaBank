@@ -5,8 +5,9 @@ import logo from "../images/logo (1).png";
 function Header() {
   return (
     <header>
-      <img src={logo} alt="logoIca" className={styles.logo} />
-
+    
+    <img src={logo} alt="logoIca" className={styles.logo} />
+   
       <nav className={styles.menu}>
         <ul>
           <Link to='/'>
@@ -26,7 +27,7 @@ function Header() {
             <li>Contatos</li>
           </Link>
           <Link to='/Login'>
-          <button className={styles.btn}>Login</button>
+          <button className={styles.btn}>Entrar</button>
           </Link>
         </ul>
       </nav>
