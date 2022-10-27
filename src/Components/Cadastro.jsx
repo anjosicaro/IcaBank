@@ -6,7 +6,7 @@ function Cadastro() {
       <div className={styles.areaimagem}></div>
 
       <div className={styles.formulario}>
-        <form>
+        <form className={styles.form}>
           <label>Nome Completo</label>
           <input type="text" placeholder="Nome completo" required />
           <label>Celular</label>
