@@ -74,6 +74,13 @@
 }
 
 .texto{
-    width:70%;
+    width:50%;
     margin: auto;
+}
+.texto h1{
+
+font-size: 50px;
+}
+.texto h3{
+    font-size: 30px;
 }

@@ -8,8 +8,8 @@ function Home(){
       <>
         <section className={styles.home}>
            <div className={styles.texto}>
-           <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi sunt quaerat saepe harum ipsam quo perferendis, quidem nisi eveniet ex dolor possimus corporis maiores aliquid esse natus beatae inventore.</h1>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eligendi voluptas deserunt dolor esse ratione odit qui quibusdam, iste officiis facere est, consequatur iure! Quae, quidem? Nemo nam nulla fuga!</h3>
+           <h1>Emprestimos para pequenos grandes artistas</h1>
+            <h3>se você quer crescer e não sabe como, nós te faremos grande</h3>
            </div>
           
            <div className={styles.imgBg}>

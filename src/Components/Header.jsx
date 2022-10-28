@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 import styles from "../css/Header.module.css";
-import logo from "../images/logo (1).png";
+import logo from "../images/logoteste.png";
 
 function Header() {
   return (
     <>
     <header>
     
-    <img src={logo} alt="logoIca" className={styles.logo} />
+   <Link to='/'>
+   <img src={logo} alt="logoIca" className={styles.logo} />
+   </Link>
    
       <nav className={styles.menu}>
         <ul>

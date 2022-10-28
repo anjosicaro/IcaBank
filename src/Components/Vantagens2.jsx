@@ -8,8 +8,8 @@ function Vantagens2() {
     <section className={styles.Vantagens}>
       <div className={styles.direita}>
     <div className={styles.texto}>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam, ipsam similique error perspiciatis fuga, molestiae cupiditate repudiandae odit minus voluptatum sunt excepturi necessitatibus laborum maiores rem, quisquam quod dolore.</h1>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem autem saepe, dolor tempore error in inventore? Illo quibusdam animi ipsum, neque iste pariatur! Porro eveniet inventore ducimus dolor veritatis laudantium.</h3>
+    <h1>Aqui seu Icash é valorizado de verdade</h1>
+        <h3>Se você procura um banco que valoriza seu dinheiro e a sua arte, esse banco é o Icard</h3>
     </div>
       </div>
       <div className={styles.esquerda}>

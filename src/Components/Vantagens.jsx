@@ -40,8 +40,9 @@ function Vantagens() {
       </div>
       <div className={styles.direita}>
     <div className={styles.texto}>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam, ipsam similique error perspiciatis fuga, molestiae cupiditate repudiandae odit minus voluptatum sunt excepturi necessitatibus laborum maiores rem, quisquam quod dolore.</h1>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem autem saepe, dolor tempore error in inventore? Illo quibusdam animi ipsum, neque iste pariatur! Porro eveniet inventore ducimus dolor veritatis laudantium.</h3>
+    <h1>Se você sonha
+Nós te ajudamos a realizar</h1>
+        <h3>Conheça todas as vantagens incríveis de se fazer parte do mundo Icard</h3>
     </div>
       </div>
     </section>

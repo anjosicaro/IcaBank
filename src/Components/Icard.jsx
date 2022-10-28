@@ -5,8 +5,8 @@ function Icard(){
     return(
         <section className={styles.icard}>
             <div className={styles.texto}>
-                <h1 className={styles.h1}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vel officia quis ullam quod atque nesciunt a esse est facere! Tempora, commodi expedita? Libero temporibus sed illum at vitae neque.</h1>
-                <h3 className={styles.h3}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, similique, dolorem asperiores tempore aspernatur itaque consequuntur reiciendis laborum suscipit est repellendus enim aperiam nobis? Molestias expedita quod dolorem aliquid optio?</h3>
+                <h1 className={styles.h1}>Conheça o cartão Icard e todas as suas vantagens </h1>
+                <h3 className={styles.h3}>Facilite suas compras e ainda ganhe premios com o uso do cartão fisíco e também o cartão digital</h3>
             <Link to='/Login'>
             <button className={styles.btn}>
                 Entrar

@@ -45,19 +45,20 @@ function Footer() {
         
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
-            <img src={github} alt="" />
+           <a href="https://github.com/anjosicaro">
+           <img src={github} alt="" /></a> 
           </div>
           <p>GitHub</p>
         </div>
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
-            <img src={insta} alt="" />
+           <a href="https://www.instagram.com/oceudeicaro/?hl=pt-br"><img src={insta} alt="" /></a> 
           </div>
           <p>Instagram</p>
         </div>
         <div className={styles.containerIcone}>
           <div className={styles.icone}>
-            <img src={figma} alt="" />
+           <a href="https://www.figma.com/file/vtsqfKPonrltUac1VDILFL/Icash%2Ficard?node-id=38%3A18123"><img src={figma} alt="" /></a> 
           </div>
           <p>Figma</p>
         </div>

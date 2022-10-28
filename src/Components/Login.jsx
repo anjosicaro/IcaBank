@@ -5,8 +5,8 @@ import imagem2 from    '../images/pintora.svg'
 function Login(){
     return(
         <section className={styles.login}>
-            <div>
-                <img src={imagem1} alt="" />
+            <div className={styles.imagem}>
+                <img src={imagem2} alt="" />
             </div>
 <div className={styles.container}>
     <h1 className={styles.texto}>Faça seu Login</h1>
@@ -19,9 +19,6 @@ function Login(){
        </Link>
     </form>
 </div>
-{/* <div>
-    <img src={imagem2} alt="" />
-</div> */}
 
         </section>
     )

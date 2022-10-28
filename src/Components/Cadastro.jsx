@@ -1,22 +1,29 @@
+import { Link } from "react-router-dom";
 import styles from "../css/Cadastro.module.css";
 
+import foto from "../images/tchelo.svg"
 function Cadastro() {
   return (
     <section className={styles.cadastro}>
-      <div className={styles.areaimagem}></div>
-
-      <div className={styles.formulario}>
-        <form className={styles.form}>
-          <label>Nome Completo</label>
-          <input type="text" placeholder="Nome completo" required />
-          <label>Celular</label>
-          <input type="text" placeholder="(11) 0 000-0000" />
-          <label>E-mail</label>
-          <input type="text" placeholder="E-mail" />
-          <label>Confirme o E-mail</label>
-          <input type="text" />
-        </form>
+      <div className={styles.areaimagem}>
+       <img src={foto} alt="" />
       </div>
+
+      <div className={styles.FormContainer}>
+        <h1 className={styles.titulo}>Complete seu cadatro</h1>
+    <form>
+      <input type="text" name="name" placeholder="Nome Completo" className={styles.input}/>
+      <input type="email" name="email" placeholder="Digite seu Email"className={styles.input} />
+      <input type="password" name="password" placeholder="Digite a sua senha" className={styles.input}/>
+      <input type="password" name="Confirmpassword" placeholder="Confirme sua senha" className={styles.input}/>
+      <Link to='/'>
+       <button type="text" name="Continuar" placeholder='Continuar' className={styles.btn}>Continuar</button>
+       </Link>
+
+    </form>
+      </div>
+
+     
     </section>
   );
 }
